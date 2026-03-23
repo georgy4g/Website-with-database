@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.picture{
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    border-radius: 200px 200px 200px 200px;
+}
+.out{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    border-radius: 200px 200px 200px 200px;
+}
+
+fieldset{
+    border: none; /* Убирает рамку от fieldset*/
+    
+}
+
+legend{
+    text-align: center;
+}
+
+body{
+    /* width: 100px;	height: 100px; Размеры */
+    background: rgb(0, 0, 0); /* Цвет фона */
+    outline: 10px solid #000; /* Чёрная рамка */
+    border: 10px solid #fff; /* Белая рамка */
+}
+.inputs_cont1{
+    border: white 2px solid;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    padding: 80px;
+    margin-top: 80px;
+}
+.inputs_cont2{
+    border: white 2px solid;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    padding: 80px;
+    margin-top: 80px;
+}
+
+input[type="email"] {
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    padding-left: 15px;
+}
+
+input[type="password"] {
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    padding-left: 15px;
+    height: 31px;
+    width: 94%;
+}
+
+/* В случае, если нажат на смайлик*/
+input[type="text"] {
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    padding-left: 15px;
+    height: 31px;
+    width: 94%;
+}
+
+button{
+    background-color: rgb(89, 90, 88);
+    border: 1px solid white;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.vhod{
+    display: none;
+}
+
+.smail_cont{
+    border: 2px solid white;
+    position: relative;
+    border: none;
+}
+
+.no{
+    position: absolute;
+    display: none;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+.yes{
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.no1{
+    position: absolute;
+    display: none;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+.yes2{
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}

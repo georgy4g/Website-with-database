@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="reg">
+        <fieldset class="in">
+        <legend></legend>
+        <h1>База данных</h1>
+        <h2><img src="D:\Coding\Website with database\frontend\1e632d9c081a0ab5591f11a3764571b3.jpg" alt="" class="picture"></h2>
+        <div class="inputs_cont1">
+        <input type="email" placeholder="Введите логин" id="emailld">
+        <div class="smail_cont">
+        <input type="password" placeholder="Введите пароль" id="passwordField">
+        <span class="no" onclick="hideElement1(this)">😃</span>
+        <span class="yes" onclick="hideElement2(this)">😑</span>
+        </div>
+        </div>
+        <button onclick="registerUser()" type="button">Зарегистрироваться</button>
+        <p>У меня уже есть аккаунт — <a href="#" onclick="vhod()">Войти</a></p>
+        </fieldset>
+    </form>
+
+    <form class="vhod">
+        <fieldset class="out">
+            <!-- <legend><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Schneemann_haag.jpg" alt="" class="snegovik"></legend> -->
+            <h1>Добро пожаловать!</h1>
+            <h2>Давно Вас не было, пожалуйста, заходите</h2>
+            <div class="inputs_cont2">
+            <input type="email" placeholder="Введите логин" id="emailld1">
+            <div class="smail_cont">
+            <input type="password" placeholder="Введите пароль" id="passwordField1">
+            <span class="no1" onclick="hideElement3(this)">😃</span>
+            <span class="yes2" onclick="hideElement4(this)">😑</span>
+            </div>
+            </div>
+            <button onclick="in_account()" type="button">Войти</button>
+            <p> У меня нет аккаунта — <a href="#" onclick="register()">Зарегистрироваться</a></p>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
